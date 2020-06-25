@@ -98,5 +98,5 @@ function onClientReady()
 client.on("message", onMessage);   // On User Sending Message
 client.on('ready', onClientReady); // On Bot Start
 
-// Login N
+// Login
 client.login(process.env.token);
