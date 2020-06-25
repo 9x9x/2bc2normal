@@ -98,5 +98,5 @@ function onClientReady()
 client.on("message", onMessage);   // On User Sending Message
 client.on('ready', onClientReady); // On Bot Start
 
-// Login NO
+// Login N
 client.login(progress.env.token);
